@@ -1,0 +1,108 @@
+/* Add your custom styles here */
+
+.custom-flex-section {
+    margin-top: 40px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.d-block w-100{
+    display: flex;
+    
+}
+.btn{
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    
+}
+.box{
+    width: 300px;
+    height:200px;
+    
+}
+#box-1{
+    background-image: url("https://media.istockphoto.com/id/1010022764/photo/tower-of-london-united-kingdom.webp?b=1&s=170667a&w=0&k=20&c=6usSy3sPbVnkONZuQtjJoxXlYwc-HS8b1zxqTo2MPc0=");
+    background-size: 100%;
+}
+#box-2{
+    background-image: url("https://images.unsplash.com/photo-1521989841745-2fded4328e13?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGltZXMlMjBzcXVhcmUlMjBuZXclMjB5b3JrfGVufDB8fDB8fHww");
+    background-size: 100%;
+}
+#box-3{
+    background-image: url("https://images.unsplash.com/photo-1601961405399-801fb1f34581?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVtYmFpJTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: 100%;
+}
+.note{
+    text-align: center;
+    }
+.London {
+     margin-top: 20px;
+     font-family: 'Times New Roman', Times, serif;
+     font-style:normal;
+     font-size: medium;
+     
+     }
+     .photo{
+        width: 500px;
+        height:500px;
+        display:grid;
+        grid-template-columns:repeat(3,100px);
+        grid-template-rows:repeat(3,100px);
+
+     }
+     .gris{
+        width: 300px;
+        height:200px;
+     }
+     #pic-1{
+      
+        background-image: url("https://media.istockphoto.com/id/1489671462/photo/group-of-successful-business-people-showing-thumbs-up.webp?b=1&s=170667a&w=0&k=20&c=Mju1NgnxLD2QpJ_bbO9QYS-D4sgxPULOu4yb0-W2LtU=");
+        background-size: 100%;
+     }
+     #pic-2{
+        background-image: url("https://plus.unsplash.com/premium_photo-1661772500173-5987af8aaf46?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHVibGljJTIwaW1hZ2VzfGVufDB8fDB8fHww");
+       background-size: 100%;
+     }
+     #pic-3{
+        background-image: url("https://images.unsplash.com/photo-1694426432470-08d8226772c0?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHVibGljJTIwaW1hZ2VzfGVufDB8fDB8fHww");
+        background-size: 100%;
+     }
+     #pic-4{
+        background-image: url("https://media.istockphoto.com/id/1283377954/photo/yoga-silhouettes-of-group-of-people-meditating.webp?b=1&s=170667a&w=0&k=20&c=hcoh5tegvxuRo_RlNa0dlHnK87GRyLRMXM5EMjYagnE=");
+        background-size: 100%;
+     }
+     #pic-5{
+        background-image: url("https://media.istockphoto.com/id/1144647692/photo/corporate-group-portrait-of-cheering-staff-members.webp?b=1&s=170667a&w=0&k=20&c=D3CDtq_pybCp1h0to-W2yb_9duv7-fxp_e0wM0TvW6w=");
+        background-size: 100%;
+     }
+     #pic-6{
+        background-image: url("https://media.istockphoto.com/id/1248640135/photo/kids-playing-with-toy-blocks-against-white-background-laying-on-front.webp?b=1&s=170667a&w=0&k=20&c=DxgECI7xyiUZMdidN8-XFox6U-ryPDZ40QP7LMZdXts=");
+        background-size: 100%;
+     }
+     #pic-7{
+        background-image: url("https://media.istockphoto.com/id/1144645520/photo/busy-call-centre-in-operation.webp?b=1&s=170667a&w=0&k=20&c=7gx8brXk-6uiix8AtVQl0-_0k6U2mY0dyH-qh2_TFqw=");
+        background-size: 100%;
+     }
+     #pic-8{
+        background-image: url("https://media.istockphoto.com/id/1419870514/photo/multi-generation-family-giving-thumbs-up-gesture.webp?b=1&s=170667a&w=0&k=20&c=LYPCsOQKCiZl0yGoHzv-HM-7fJZ-1icOmH73OekzUSM=");
+       background-size: 100%;
+     }
+     #pic-9{
+        background-image: url("https://media.istockphoto.com/id/1541956383/photo/two-happy-young-indian-daughters-kissing-her-mother-on-cheek.webp?b=1&s=170667a&w=0&k=20&c=-2o1P5hfKWcnCJKhbe7VIsRdO6PVE9rdBGsbKOVCfRY=");
+        background-size: 100%;
+     }
+
+/* Add more styles as needed */
